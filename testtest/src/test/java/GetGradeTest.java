@@ -104,11 +104,3 @@ public class GetGradeTest {
 
 }
 
-/*
-- Score : 95%, Présence : 90 => Note: A
-- Score : 85%, Présence : 90 => Note: B
-- Score : 65%, Présence : 90 => Note: C
-- Score : 95%, Présence : 65 => Note: B
-- Score : 95%, Présence : 55 => Note: F
-- Score : 65%, Présence : 55 => Note: F
-- Score : 50%, Présence : 90 => Note: F*/
