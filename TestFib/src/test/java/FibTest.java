@@ -60,13 +60,7 @@ public class FibTest {
         //Arrange
         fib.range = 6;
         //Act
-        List<Integer> list_await = new ArrayList<>();
-        list_await.add(0);
-        list_await.add(1);
-        list_await.add(1);
-        list_await.add(2);
-        list_await.add(3);
-        list_await.add(5);
+        List<Integer> list_await = List.of(0,1,1,2,3,5);
         //Assert
         Assertions.assertEquals(fib.getFibSeries(), list_await);
     }
